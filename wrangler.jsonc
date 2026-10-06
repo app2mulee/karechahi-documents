@@ -1,0 +1,21 @@
+{
+  "name": "karechahi-documents",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-06",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "BOT_HUB",
+        "class_name": "BotHub"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "BotHub"
+      ]
+    }
+  ]
+}
